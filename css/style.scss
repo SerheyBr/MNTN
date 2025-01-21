@@ -1,0 +1,42 @@
+:root {
+	--font-family: "Montserrat", serif;
+	--second-family: "Crimson Text", serif;;
+
+	--bg: #0b1d26;
+	--weib: #fff;
+	--accent: #fbd784;
+ }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul li{
+	list-style: none;
+}
+
+button{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 178%;
+	color: var(--weib);
+}
