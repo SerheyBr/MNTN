@@ -14,7 +14,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 ul li {
@@ -38,4 +38,87 @@ body {
   font-size: 18px;
   line-height: 178%;
   color: var(--weib);
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  background: rgb(47, 255, 0);
+}
+.bg__sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg__sky img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg__mountains {
+  position: absolute;
+  top: 463px;
+  left: 0;
+}
+.bg__mountains img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg__floor {
+  position: absolute;
+  top: 766px;
+  left: 0;
+}
+.bg__floor img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg__gradient-bottom {
+  position: absolute;
+  top: 1100px;
+  left: 0;
+}
+.bg__gradient-bottom img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg__gradient-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg__gradient-top img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header {
+  position: relative;
+  padding-top: 65px;
+  margin-bottom: 200px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__list {
+  display: flex;
+}
+.header__link {
+  margin-right: 40px;
+}
+.header__acc {
+  display: flex;
+}
+.header__acc img {
+  margin-right: 8px;
 }

@@ -15,7 +15,7 @@
 
 a{
 	text-decoration: none;
-	color: black;
+	color: inherit;
 }
 
 ul li{
@@ -40,3 +40,96 @@ body{
 	line-height: 178%;
 	color: var(--weib);
 }
+
+
+.bg {
+	position: absolute;
+	width: 100%;
+	// height: min-content;
+
+	background: rgb(47, 255, 0);
+	// z-index: 10;
+	&__sky {
+		position: absolute;
+		top: 0;
+		left: 0;
+		// z-index: 1;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__mountains {
+		position: absolute;
+		top: 463px;
+		left: 0;
+		// z-index: 2;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__floor {
+		position: absolute;
+		top: 766px;
+		left: 0;
+		// z-index: 3;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__gradient-bottom{
+		position: absolute;
+		// z-index: 4;
+		top: 1100px;
+		left: 0;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__gradient-top{
+		position: absolute;
+		// z-index: 4;
+		top: 0;
+		left: 0;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.header {
+	position: relative;
+	padding-top: 65px;
+	margin-bottom: 200px;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__list {
+		display: flex;
+	}
+
+	&__link {
+		margin-right: 40px;
+	}
+
+	&__acc {
+		display: flex;
+		img{
+			margin-right: 8px;
+		}
+	}
+}
+
