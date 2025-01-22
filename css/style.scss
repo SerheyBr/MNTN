@@ -149,6 +149,12 @@ body{
 
 	&__link {
 		margin-right: 40px;
+		a{
+			transition: all 0.3s;
+		}
+		&:hover a{
+			color: #fbd784;
+		}
 	}
 
 	&__acc {
@@ -268,6 +274,13 @@ body{
 		color: var(--accent);
 		display: flex;
 		align-items: center;
+		p, svg path{
+			transition: all 0.3s;
+		}
+		&:hover p, &:hover svg path{
+			color: #fff;
+			fill: #fff;
+		}
 		p{
 			margin-right: 16px;
 		}
@@ -279,5 +292,62 @@ body{
 
 .get-started-item.revers{
 	flex-direction: row-reverse;
+}
+
+.footer {
+	padding-bottom: 100px;
+	position: relative;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__logo {
+		margin-bottom: 24px;
+	}
+
+	&__title {
+		max-width: 350px;
+	}
+
+	&__text {
+		margin-top: auto;
+		font-weight: 500;
+		opacity: 0.5;
+	}
+
+	&__navigation {
+		display: flex;
+		gap: 212px;
+	}
+
+	&__column {
+		font-weight: 500;
+		font-size: 18px;
+	}
+
+	&__link {
+		margin-bottom: 16px;
+		a{
+			transition: all 0.3s;
+		}
+		&:hover a{
+			color: #fbd784;
+		}
+	}
+
+	&__column-title {
+		font-family: var(--font-family);
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 133%;
+		color: var(--accent);
+		margin-bottom: 24px;
+	}
 }
 
